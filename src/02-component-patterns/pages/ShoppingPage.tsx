@@ -19,13 +19,11 @@ const ShoppingPage = () => {
           flexDirection: 'row',
           flexWrap: "wrap"
         }}>
-          {/* <ProductCard product={product} >
+          <ProductCard product={product} >
             <ProductCard.Image />
             <ProductCard.Title title={'Coffee'} />
-            <ProductCard.Buttons counter={0} increaseBy={function (val: number): void {
-            throw new Error("Function not implemented.");
-          } } />
-          </ProductCard> */}
+            <ProductCard.Buttons />
+          </ProductCard>
 
             <ProductCard product={product} >
               <ProductImage />
