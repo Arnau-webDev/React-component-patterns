@@ -3,6 +3,7 @@ export interface ProductCardProps {
     product: Product,
     children?: React.ReactElement | React.ReactElement[],
     className?: string,
+    style?: React.CSSProperties,
 }
 
 export interface Product {
