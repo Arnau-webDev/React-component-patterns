@@ -1,7 +1,8 @@
 
 export interface ProductCardProps {
     product: Product,
-    children?: React.ReactElement | React.ReactElement[]
+    children?: React.ReactElement | React.ReactElement[],
+    className?: string,
 }
 
 export interface Product {
